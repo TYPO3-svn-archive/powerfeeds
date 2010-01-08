@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'powerfeeds'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_powerfeeds_feeds">Feeds</label>
+			<label index="tx_powerfeeds_feeds.title">Title</label>
+			<label index="tx_powerfeeds_feeds.uri">URI</label>
+			<label index="tx_powerfeeds_feeds.update_frequency">Update frequency (in seconds)</label>
+			<label index="tx_powerfeeds_feeds.is_managed">This feed is managed</label>
+			<label index="tx_powerfeeds_feeds.auto_allow">Display headers automatically</label>
+			<label index="tx_powerfeeds_feeds.storage_limit">Storage limit</label>
+			<label index="tx_powerfeeds_headlines">Headlines</label>
+			<label index="tx_powerfeeds_headlines.guid">Globally unique identifier (guid)</label>
+			<label index="tx_powerfeeds_headlines.feed_id">Feed</label>
+			<label index="tx_powerfeeds_headlines.title">Title</label>
+			<label index="tx_powerfeeds_headlines.summary">Summary</label>
+			<label index="tx_powerfeeds_headlines.category">Category</label>
+			<label index="tx_powerfeeds_headlines.author">Author</label>
+			<label index="tx_powerfeeds_headlines.published">Published</label>
+			<label index="tx_powerfeeds_headlines.updated">Updated</label>
+			<label index="tx_powerfeeds_headlines.xml_data">XML Data</label>
+			<label index="tt_content.CType_pi1">Powerfeeds</label>
+		</languageKey>
+		<languageKey index="nl" type="array">
+			<label index="tx_powerfeeds_feeds">Feeds</label>
+			<label index="tx_powerfeeds_feeds.title">Titel</label>
+			<label index="tx_powerfeeds_feeds.uri">URI</label>
+			<label index="tx_powerfeeds_feeds.update_frequency">Update frequentie (in seconden)</label>
+			<label index="tx_powerfeeds_feeds.is_managed">Deze feed wordt beheerd</label>
+			<label index="tx_powerfeeds_feeds.auto_allow">Headers automatisch weergeven</label>
+			<label index="tx_powerfeeds_feeds.storage_limit">Opslag limiet</label>
+			<label index="tx_powerfeeds_headlines">Koppen</label>
+			<label index="tx_powerfeeds_headlines.guid">Globally unique identifier (guid)</label>
+			<label index="tx_powerfeeds_headlines.feed_id">Feed</label>
+			<label index="tx_powerfeeds_headlines.title">Title</label>
+			<label index="tx_powerfeeds_headlines.summary">Opsomming</label>
+			<label index="tx_powerfeeds_headlines.category">Categorie</label>
+			<label index="tx_powerfeeds_headlines.author">Auteur</label>
+			<label index="tx_powerfeeds_headlines.published">Gepubliceerd</label>
+			<label index="tx_powerfeeds_headlines.updated">Laast gewijzigd</label>
+			<label index="tx_powerfeeds_headlines.xml_data">XML Data</label>
+			<label index="tt_content.CType_pi1">Powerfeeds</label>
+		</languageKey>
+	</data>
+</T3locallang>

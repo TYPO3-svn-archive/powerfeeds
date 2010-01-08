@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for module &quot;web_txpowerfeedsM1&quot; - header, description</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="mlang_tabs_tab">Powerfeeds</label>
+			<label index="mlang_labels_tabdescr">Manage your feeds and headlines</label>
+			<label index="mlang_labels_tablabel">Manage your feeds and headlines</label>
+		</languageKey>
+		<languageKey index="nl" type="array">
+			<label index="mlang_tabs_tab">Powerfeeds</label>
+			<label index="mlang_labels_tabdescr">Manage your feeds and headlines</label>
+			<label index="mlang_labels_tablabel">Manage your feeds and headlines</label>
+		</languageKey>
+	</data>
+</T3locallang>
