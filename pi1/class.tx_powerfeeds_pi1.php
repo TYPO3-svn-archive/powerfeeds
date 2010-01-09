@@ -29,7 +29,6 @@
 
 require_once(PATH_tslib.'class.tslib_pibase.php');
 
-
 /**
  * Plugin 'Powerfeeds' for the 'powerfeeds' extension.
  *
@@ -38,9 +37,9 @@ require_once(PATH_tslib.'class.tslib_pibase.php');
  * @subpackage	tx_powerfeeds
  */
 class tx_powerfeeds_pi1 extends tslib_pibase {
-	var $prefixId      = 'tx_powerfeeds_pi1';		// Same as class name
-	var $scriptRelPath = 'pi1/class.tx_powerfeeds_pi1.php';	// Path to this script relative to the extension dir.
-	var $extKey        = 'powerfeeds';	// The extension key.
+	public $prefixId = 'tx_powerfeeds_pi1';		// Same as class name
+	public $scriptRelPath = 'pi1/class.tx_powerfeeds_pi1.php';	// Path to this script relative to the extension dir.
+	public $extKey = 'powerfeeds';	// The extension key.
 	
 	/**
 	 * The main method of the PlugIn
@@ -49,11 +48,17 @@ class tx_powerfeeds_pi1 extends tslib_pibase {
 	 * @param	array		$conf: The PlugIn configuration
 	 * @return	The content that is displayed on the website
 	 */
-	function main($content, $conf)	{
+	public function main($content, $conf)	{
 		return 'Hello World!<HR>
 			Here is the TypoScript passed to the method:'.
 					t3lib_div::view_array($conf);
 	}
+	
+	/**
+	 * Initialize
+	 * - Set plugin defaults
+	 * - Load FlexForm configuration
+	 */
 }
 
 
