@@ -23,11 +23,21 @@
 ***************************************************************/
 
 /**
+ * model.feed.php
+ * 
  * Model for feeds, for the 'powerfeeds' extension.
  *
  * @author	Sebastiaan de Jonge <szebi.eger@gmail.com>
  * @package	TYPO3
  * @subpackage	powerfeeds
+ */
+
+require_once('model.base.php');
+
+/**
+ * The class provides the model for feeds
+ *
+ * @author Sebastiaan de Jonge <szebi.eger@gmail.com>
  */
 class feedModel extends baseModel
 {

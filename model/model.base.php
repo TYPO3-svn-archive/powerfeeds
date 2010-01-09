@@ -29,6 +29,13 @@
  * @package	TYPO3
  * @subpackage	powerfeeds
  */
+
+/**
+ * This class for all further models
+ * 
+ * @author Sebastiaan de Jonge <szebi.eger@gmail.com>
+ *
+ */
 class baseModel {
 	/**
 	 * Default table fields

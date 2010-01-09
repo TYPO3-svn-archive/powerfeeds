@@ -23,11 +23,21 @@
 ***************************************************************/
 
 /**
+ * model.headline.php
+ * 
  * Model for headlines, for the 'powerfeeds' extension.
  *
  * @author Sebastiaan de Jonge <szebi.eger@gmail.com>
  * @package TYPO3
  * @subpackage powerfeeds
+ */
+
+require_once('model.base.php');
+
+/**
+ * This class provides the model for headlines
+ * 
+ * @author Sebastiaan de Jonge <szebi.eger@gmail.com>
  */
 class headlineModel extends baseModel
 {
