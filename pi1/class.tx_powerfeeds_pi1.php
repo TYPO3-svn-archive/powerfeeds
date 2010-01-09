@@ -32,9 +32,9 @@ require_once(PATH_tslib.'class.tslib_pibase.php');
 /**
  * Plugin 'Powerfeeds' for the 'powerfeeds' extension.
  *
- * @author	Sebastiaan de Jonge <szebi.eger@gmail.com>
- * @package	TYPO3
- * @subpackage	tx_powerfeeds
+ * @author Sebastiaan de Jonge <szebi.eger@gmail.com>
+ * @package TYPO3
+ * @subpackage powerfeeds
  */
 class tx_powerfeeds_pi1 extends tslib_pibase {
 	public $prefixId = 'tx_powerfeeds_pi1';		// Same as class name
