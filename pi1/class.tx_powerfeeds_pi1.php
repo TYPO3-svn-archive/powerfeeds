@@ -28,6 +28,8 @@
  */
 
 require_once(PATH_tslib.'class.tslib_pibase.php');
+require_once(t3lib_extMgm::extPath('powerfeeds', 'control/class.feedControl.php'));
+require_once(t3lib_extMgm::extPath('powerfeeds', 'control/class.headlineControl.php'));
 
 /**
  * Plugin 'Powerfeeds' for the 'powerfeeds' extension.

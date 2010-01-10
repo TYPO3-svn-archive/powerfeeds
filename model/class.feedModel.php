@@ -23,7 +23,7 @@
 ***************************************************************/
 
 /**
- * model.feed.php
+ * class.feedModel.php
  * 
  * Model for feeds, for the 'powerfeeds' extension.
  *
@@ -32,7 +32,7 @@
  * @subpackage	powerfeeds
  */
 
-require_once('model.base.php');
+require_once('class.baseModel.php');
 
 /**
  * The class provides the model for feeds

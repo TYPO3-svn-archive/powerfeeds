@@ -23,7 +23,7 @@
 ***************************************************************/
 
 /**
- * model.headline.php
+ * class.headlineModel.php
  * 
  * Model for headlines, for the 'powerfeeds' extension.
  *
@@ -32,7 +32,7 @@
  * @subpackage powerfeeds
  */
 
-require_once('model.base.php');
+require_once('class.baseModel.php');
 
 /**
  * This class provides the model for headlines

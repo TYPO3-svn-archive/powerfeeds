@@ -23,6 +23,8 @@
 ***************************************************************/
 
 /**
+ * class.baseModel.php
+ * 
  * Base model for the 'powerfeeds' extension.
  *
  * @author	Sebastiaan de Jonge <szebi.eger@gmail.com>
